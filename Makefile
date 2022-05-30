@@ -12,3 +12,9 @@ postgres-install-client:
 
 postgres-psql:
 	psql -h localhost -U postgres
+
+
+# Backstage commands
+
+backstage-dev:
+	pushd savi-developer-portal && yarn dev

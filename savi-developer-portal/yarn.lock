@@ -1865,6 +1865,53 @@
     react-router-dom "6.0.0-beta.0"
     react-use "^17.2.4"
 
+"@backstage/plugin-home@^0.4.21":
+  version "0.4.21"
+  resolved "https://npm-cache.buildenv.vqpn.net/@backstage%2fplugin-home/-/plugin-home-0.4.21.tgz#798058d9aeead651ff830641cb0222b6bafb5542"
+  integrity sha512-mdaxdR+76ZNYJiK1NtAGjnfQQKPIsZ2tVfyskWaZov1C6DxTGsguQ5oL2kiDiFj4rF7FgmtwfIxKZqWfivbR5Q==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.2"
+    "@backstage/config" "^1.0.1"
+    "@backstage/core-components" "^0.9.4"
+    "@backstage/core-plugin-api" "^1.0.2"
+    "@backstage/plugin-catalog-react" "^1.1.0"
+    "@backstage/plugin-stack-overflow" "^0.1.1"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    lodash "^4.17.21"
+    react-router "6.0.0-beta.0"
+    react-use "^17.2.4"
+
+"@backstage/plugin-jenkins-common@^0.1.4":
+  version "0.1.4"
+  resolved "https://npm-cache.buildenv.vqpn.net/@backstage%2fplugin-jenkins-common/-/plugin-jenkins-common-0.1.4.tgz#7087b389490a2c1417d16e9a99e344ba76fe193b"
+  integrity sha512-5rIhOSLNLytXIPZyM3N0FR0KbsnZP7w2R9xwVoo2PB36nAnoKhMDGmr6m/scGv2RG2hOGK3HGMsMCjd5o2UtDw==
+  dependencies:
+    "@backstage/plugin-catalog-common" "^1.0.2"
+    "@backstage/plugin-permission-common" "^0.6.1"
+
+"@backstage/plugin-jenkins@^0.7.4":
+  version "0.7.4"
+  resolved "https://npm-cache.buildenv.vqpn.net/@backstage%2fplugin-jenkins/-/plugin-jenkins-0.7.4.tgz#84d4d5333b2bcd4faa0bde11045ebac95be06269"
+  integrity sha512-iRNALExABEBkEnQud8c0ScMFGdrr2fqLFreFWYrgt99ch/OijHBLQaiC0HtLpo8XGU1W/HJDjURn8l+NmmwsAQ==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.2"
+    "@backstage/core-components" "^0.9.4"
+    "@backstage/core-plugin-api" "^1.0.2"
+    "@backstage/errors" "^1.0.0"
+    "@backstage/plugin-catalog-react" "^1.1.0"
+    "@backstage/plugin-jenkins-common" "^0.1.4"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    luxon "^2.0.2"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
+
 "@backstage/plugin-org@^0.5.5":
   version "0.5.5"
   resolved "https://npm-cache.buildenv.vqpn.net/@backstage%2fplugin-org/-/plugin-org-0.5.5.tgz#d80f533a6bc01bf6b596eb25b3c155a28c77b80d"
@@ -2130,6 +2177,25 @@
     qs "^6.9.4"
     react-router "6.0.0-beta.0"
     react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
+
+"@backstage/plugin-stack-overflow@^0.1.1":
+  version "0.1.1"
+  resolved "https://npm-cache.buildenv.vqpn.net/@backstage%2fplugin-stack-overflow/-/plugin-stack-overflow-0.1.1.tgz#238ae82cb5f5732eb343b4f87aa6fc973bb613d2"
+  integrity sha512-CUSQfrymZw90gWB6SbtRKt/SwgpoAxlClSeEMuDkC1JI9QjyLBNkXwYfesTpuQyBF3J6tyn/02q6r9tKKiObgQ==
+  dependencies:
+    "@backstage/config" "^1.0.1"
+    "@backstage/core-components" "^0.9.4"
+    "@backstage/core-plugin-api" "^1.0.2"
+    "@backstage/plugin-home" "^0.4.21"
+    "@backstage/plugin-search-common" "^0.3.4"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@testing-library/jest-dom" "^5.10.1"
+    cross-fetch "^3.1.5"
+    lodash "^4.17.21"
+    qs "^6.9.4"
     react-use "^17.2.4"
 
 "@backstage/plugin-tech-radar@^0.5.12":
@@ -5688,6 +5754,8 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-catalog-import" "^0.8.8"
     "@backstage/plugin-catalog-react" "^1.1.0"
     "@backstage/plugin-github-actions" "^0.5.5"
+    "@backstage/plugin-home" "^0.4.21"
+    "@backstage/plugin-jenkins" "^0.7.4"
     "@backstage/plugin-org" "^0.5.5"
     "@backstage/plugin-permission-react" "^0.4.1"
     "@backstage/plugin-scaffolder" "^1.2.0"
@@ -14616,7 +14684,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.3.0:
+pg@^8.7.3:
   version "8.7.3"
   resolved "https://npm-cache.buildenv.vqpn.net/pg/-/pg-8.7.3.tgz#8a5bdd664ca4fda4db7997ec634c6e5455b27c44"
   integrity sha512-HPmH4GH4H3AOprDJOazoIcpI49XFsHCe8xlrjHkWiapdbHK+HLtbm/GQzXYAZwmPju/kzKhjaSfMACG+8cgJcw==
